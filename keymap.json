@@ -34,6 +34,10 @@
       "space b d": "pane::CloseActiveItem",
       "space d b": "editor::ToggleBreakpoint",
       "space h j": "vim::Paste",
+      "shift-h": "pane::ActivatePreviousItem",
+      "shift-l": "pane::ActivateNextItem",
+      "g t": "pane::ActivateNextItem",
+      "g shift-t": "pane::ActivatePreviousItem",
     },
   },
   {
