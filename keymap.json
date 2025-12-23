@@ -18,7 +18,6 @@
       "ctrl-l": "editor::Newline",
       "ctrl-e e": "buffer_search::Deploy",
       "space e": "project_panel::ToggleFocus",
-
       "space space": "command_palette::Toggle",
       "g d": "editor::GoToDefinition",
       "g shift-d": "editor::GoToDeclaration",

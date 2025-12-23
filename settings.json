@@ -1,4 +1,5 @@
 {
+  "ui_font_family": "JetBrainsMono Nerd Font Mono",
   "base_keymap": "VSCode",
   "vim_mode": true,
   "vim": {
@@ -6,7 +7,7 @@
     "use_smartcase_find": true,
   },
   "ui_font_size": 20,
-  "buffer_font_size": 15,
+  "buffer_font_size": 18,
   "buffer_font_family": "JetBrainsMono Nerd Font Mono",
   "buffer_font_weight": 400,
   "buffer_line_height": "comfortable",
@@ -15,7 +16,7 @@
     "light": "One Light",
     "dark": "Ayu Dark",
   },
-  "icon_theme": "Zed (Default)",
+  "icon_theme": "Material Icon Theme",
   "tab_size": 2,
   "hard_tabs": false,
   "soft_wrap": "none",
@@ -182,11 +183,6 @@
     },
     "Python": {
       "tab_size": 4,
-      "format_on_save": "on",
-      "formatter": "language_server",
-    },
-    "Elixir": {
-      "tab_size": 2,
       "format_on_save": "on",
       "formatter": "language_server",
     },
