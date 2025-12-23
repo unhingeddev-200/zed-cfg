@@ -1,0 +1,78 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-x": "terminal_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-x": "workspace::ToggleBottomDock"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "ctrl-c": "vim::NormalBefore",
+      "ctrl-l": "editor::Newline",
+      "ctrl-e e": "buffer_search::Deploy",
+      "space e": "project_panel::ToggleFocus",
+      "space c l i": "editor::Hover",
+      "space c p": "editor::CopyPath",
+      "space f f": "file_finder::Toggle",
+      "space /": "workspace::DeploySearch",
+      "space space": "command_palette::Toggle",
+      "g d": "editor::GoToDefinition",
+      "g shift-d": "editor::GoToDeclaration",
+      "g i": "editor::GoToImplementation",
+      "g r": "editor::FindAllReferences",
+      "g y": "editor::GoToTypeDefinition",
+      "shift-k": "editor::Hover",
+      "g shift-k": "editor::Hover",
+      "space c a": "editor::ToggleCodeActions",
+      "space c r": "editor::Rename",
+      "space c d": "diagnostics::Deploy",
+      "] d": "editor::GoToDiagnostic",
+      "[ d": "editor::GoToPrevDiagnostic",
+      "space b d": "pane::CloseActiveItem",
+      "space b shift-d": "pane::CloseInactiveItems",
+      "space d b": "editor::ToggleBreakpoint",
+      "space h j": "vim::Paste"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      "ctrl-c": "vim::NormalBefore",
+      "ctrl-l": "editor::Newline",
+      "ctrl-o": "editor::Newline",
+      "ctrl-b": "editor::Paste",
+      "ctrl-j": "editor::ContextMenuNext",
+      "ctrl-k": "editor::ContextMenuPrev"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == visual",
+    "bindings": {
+      "ctrl-c": "vim::NormalBefore",
+      "ctrl-l": "vim::NormalBefore"
+    }
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "space e": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-p": "file_finder::Toggle",
+      "ctrl-shift-f": "workspace::DeploySearch",
+      "ctrl-shift-o": "outline::Toggle",
+      "ctrl-tab": "pane::ActivateNextItem",
+      "ctrl-shift-tab": "pane::ActivatePrevItem"
+    }
+  }
+]

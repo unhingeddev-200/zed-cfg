@@ -1,0 +1,257 @@
+{
+  "base_keymap": "VSCode",
+  "vim_mode": true,
+  "vim": {
+    "use_system_clipboard": "always",
+    "use_multiline_find": true,
+    "use_smartcase_find": true
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_weight": 400,
+  "buffer_line_height": "comfortable",
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Tokyo Night"
+  },
+  "icon_theme": "Zed (Default)",
+  "tab_size": 2,
+  "hard_tabs": false,
+  "soft_wrap": "none",
+  "show_whitespaces": "selection",
+  "relative_line_numbers": true,
+  "cursor_blink": false,
+  "vertical_scroll_margin": 8,
+  "scroll_beyond_last_line": "one_page",
+  "ensure_final_newline_on_save": true,
+  "format_on_save": "on",
+  "remove_trailing_whitespace_on_save": true,
+  "autosave": "on_focus_change",
+  "auto_save": {
+    "after_delay": {
+      "milliseconds": 1000
+    }
+  },
+  "scroll_sensitivity": 1.0,
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true,
+    "edit_debounce_ms": 700,
+    "scroll_debounce_ms": 50
+  },
+  "show_completions_on_input": true,
+  "use_autoclose": true,
+  "git": {
+    "inline_blame": {
+      "enabled": true
+    }
+  },
+  "terminal": {
+    "dock": "bottom",
+    "default_height": 400,
+    "shell": {
+      "program": "bash"
+    },
+    "blinking": "off",
+    "font_size": 14,
+    "font_family": "JetBrains Mono"
+  },
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/.jj",
+    "**/node_modules",
+    "**/target",
+    "**/.next",
+    "**/dist",
+    "**/build",
+    "**/.cache"
+  ],
+  "lsp": {
+    "gopls": {
+      "initialization_options": {
+        "usePlaceholders": true,
+        "completeUnimported": true,
+        "analyses": {
+          "unusedparams": true,
+          "shadow": false,
+          "nilness": true,
+          "unusedwrite": true,
+          "useany": true
+        },
+        "staticcheck": false,
+        "gofumpt": true,
+        "semanticTokens": false,
+        "codelenses": {
+          "gc_details": true,
+          "generate": true,
+          "regenerate_cgo": true,
+          "run_govulncheck": true,
+          "test": true,
+          "tidy": true,
+          "upgrade_dependency": true,
+          "vendor": true
+        },
+        "hints": {
+          "assignVariableTypes": true,
+          "compositeLiteralFields": true,
+          "compositeLiteralTypes": true,
+          "constantValues": true,
+          "functionTypeParameters": true,
+          "parameterNames": true,
+          "rangeVariableTypes": true
+        },
+        "diagnosticsDelay": "100ms",
+        "directoryFilters": ["-node_modules", "-vendor"],
+        "experimentalPostfixCompletions": true
+      }
+    },
+    "rust-analyzer": {
+      "initialization_options": {
+        "diagnostics": {
+          "enable": false
+        }
+      }
+    },
+    "zls": {
+      "binary": {
+        "path": "zls"
+      }
+    },
+    "elixir-ls": {
+      "binary": {
+        "path": "/home/havok/bin/lsp/elixir-ls/language_server.sh"
+      }
+    },
+    "deno": {
+      "enable": true
+    },
+    "typescript-language-server": {
+      "enable": false
+    },
+    "yaml-language-server": {
+      "initialization_options": {
+        "yaml": {
+          "format": {
+            "enable": true
+          },
+          "validate": true,
+          "completion": true,
+          "hover": true
+        }
+      }
+    },
+    "tailwindcss-language-server": {
+      "enable": true
+    }
+  },
+  "languages": {
+    "Go": {
+      "tab_size": 4,
+      "hard_tabs": true,
+      "format_on_save": "on",
+      "formatter": "language_server",
+      "code_actions_on_format": {
+        "source.organizeImports": true
+      }
+    },
+    "Rust": {
+      "tab_size": 4,
+      "format_on_save": "on",
+      "formatter": "language_server"
+    },
+    "JavaScript": {
+      "tab_size": 2,
+      "format_on_save": "on",
+      "formatter": "language_server",
+      "preferred_line_length": 100
+    },
+    "TypeScript": {
+      "tab_size": 2,
+      "format_on_save": "on",
+      "formatter": "language_server",
+      "preferred_line_length": 100
+    },
+    "TSX": {
+      "tab_size": 2,
+      "format_on_save": "on",
+      "formatter": "language_server"
+    },
+    "JSON": {
+      "tab_size": 2,
+      "format_on_save": "on",
+      "formatter": "language_server"
+    },
+    "YAML": {
+      "tab_size": 2,
+      "format_on_save": "on",
+      "formatter": "language_server"
+    },
+    "Python": {
+      "tab_size": 4,
+      "format_on_save": "on",
+      "formatter": "language_server"
+    },
+    "Elixir": {
+      "tab_size": 2,
+      "format_on_save": "on",
+      "formatter": "language_server"
+    },
+    "C": {
+      "tab_size": 2,
+      "format_on_save": "on",
+      "formatter": "language_server"
+    },
+    "C++": {
+      "tab_size": 2,
+      "format_on_save": "on",
+      "formatter": "language_server"
+    },
+    "HTML": {
+      "tab_size": 2,
+      "format_on_save": "on"
+    },
+    "CSS": {
+      "tab_size": 2,
+      "format_on_save": "on"
+    },
+    "Markdown": {
+      "tab_size": 2,
+      "soft_wrap": "preferred_line_length",
+      "preferred_line_length": 80
+    }
+  },
+  "project_panel": {
+    "dock": "left",
+    "default_width": 300,
+    "git_status": true
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "preview_tabs": {
+    "enabled": true,
+    "enable_preview_from_file_finder": true
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "assistant": {
+    "default_model": {
+      "provider": "anthropic",
+      "model": "claude-3-5-sonnet-20241022"
+    },
+    "version": "2",
+    "dock": "right"
+  },
+  "journal": {
+    "hour_format": "hour24"
+  },
+  "outline_panel": {
+    "dock": "right"
+  }
+}
