@@ -47,13 +47,16 @@
   },
   "terminal": {
     "dock": "bottom",
-    "default_height": 400,
+    "default_height": 320,
     "shell": {
       "program": "fish",
     },
     "blinking": "on",
-    "font_size": 16,
-    "font_family": "JetBrainsMono Nerd Font Mono",
+    "font_size": 18,
+    "font_family": "JetBrainsMono Nerd Font",
+    "line_height": {
+      "custom": 1.4,
+    },
   },
   "file_scan_exclusions": [
     "**/.git",
@@ -135,9 +138,7 @@
         },
       },
     },
-    "tailwindcss-language-server": {
-      "enable": true,
-    },
+    "tailwindcss-language-server": {},
   },
   "languages": {
     "Go": {

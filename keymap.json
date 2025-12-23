@@ -2,13 +2,13 @@
   {
     "context": "Workspace",
     "bindings": {
-      "ctrl-x": "terminal_panel::ToggleFocus",
+      "alt-u": "terminal_panel::ToggleFocus",
     },
   },
   {
     "context": "Terminal",
     "bindings": {
-      "ctrl-x": "workspace::ToggleBottomDock",
+      "alt-u": "workspace::ToggleBottomDock",
     },
   },
   {
